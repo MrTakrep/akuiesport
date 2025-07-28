@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segera Hadir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <h1>Sesuatu yang Keren Akan Segera Hadir</h1>
+        <p>Kami sedang mempersiapkan sesuatu yang spesial untuk Anda. Hitung mundur sampai waktu peluncuran.</p>
+        <div id="countdown" class="countdown-container">
+            <div class="countdown-item">
+                <svg class="ring" width="160" height="160">
+                    <circle class="ring-bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="ring-progress" id="days-ring" cx="80" cy="80" r="70"></circle>
+                </svg>
+                <div id="days" class="countdown-number">0</div>
+                <div class="countdown-label">Hari</div>
+            </div>
+            <div class="countdown-item">
+                <svg class="ring" width="160" height="160">
+                    <circle class="ring-bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="ring-progress" id="hours-ring" cx="80" cy="80" r="70"></circle>
+                </svg>
+                <div id="hours" class="countdown-number">0</div>
+                <div class="countdown-label">Jam</div>
+            </div>
+            <div class="countdown-item">
+                <svg class="ring" width="160" height="160">
+                    <circle class="ring-bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="ring-progress" id="minutes-ring" cx="80" cy="80" r="70"></circle>
+                </svg>
+                <div id="minutes" class="countdown-number">0</div>
+                <div class="countdown-label">Menit</div>
+            </div>
+            <div class="countdown-item">
+                <svg class="ring" width="160" height="160">
+                    <circle class="ring-bg" cx="80" cy="80" r="70"></circle>
+                    <circle class="ring-progress" id="seconds-ring" cx="80" cy="80" r="70"></circle>
+                </svg>
+                <div id="seconds" class="countdown-number">0</div>
+                <div class="countdown-label">Detik</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
